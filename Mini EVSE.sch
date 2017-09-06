@@ -319,7 +319,7 @@ Entry Wire Line
 	4850 3850 4950 3950
 Entry Wire Line
 	4750 2950 4850 2850
-Text Label 4450 2950 0    40   ~ 0
+Text Label 4450 3050 0    40   ~ 0
 CP_MEAS
 $Comp
 L D_TVS D1
@@ -327,7 +327,7 @@ U 1 1 59A15F38
 P 8100 3700
 F 0 "D1" H 8100 3800 50  0000 C CNN
 F 1 "D_TVS" H 8100 3600 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 8100 3700 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-201_P5.08mm_Vertical_KathodeUp" H 8100 3700 50  0001 C CNN
 F 3 "" H 8100 3700 50  0001 C CNN
 	1    8100 3700
 	0    1    1    0   
@@ -604,8 +604,6 @@ Wire Wire Line
 Wire Wire Line
 	5750 2950 5300 2950
 Wire Wire Line
-	3650 1450 3650 1950
-Wire Wire Line
 	3650 1850 3550 1850
 Wire Wire Line
 	7750 3050 7750 3550
@@ -727,7 +725,7 @@ Wire Wire Line
 	4350 3050 4750 3050
 Entry Wire Line
 	4750 3050 4850 2950
-Text Label 4450 3050 0    40   ~ 0
+Text Label 4450 2950 0    40   ~ 0
 PP_MEAS
 $Comp
 L D_Zener D2
@@ -735,7 +733,7 @@ U 1 1 59A70AC8
 P 8600 3700
 F 0 "D2" H 8600 3800 50  0000 C CNN
 F 1 "D_Zener" H 8600 3600 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-201AD_P12.70mm_Horizontal" H 8600 3700 50  0001 C CNN
+F 2 "Diodes_THT:D_DO-201_P5.08mm_Vertical_KathodeUp" H 8600 3700 50  0001 C CNN
 F 3 "" H 8600 3700 50  0001 C CNN
 	1    8600 3700
 	0    1    1    0   
@@ -760,18 +758,14 @@ $EndComp
 $Comp
 L GND #PWR021
 U 1 1 59A71169
-P 7050 1950
-F 0 "#PWR021" H 7050 1700 50  0001 C CNN
-F 1 "GND" H 7050 1800 50  0000 C CNN
-F 2 "" H 7050 1950 50  0001 C CNN
-F 3 "" H 7050 1950 50  0001 C CNN
-	1    7050 1950
+P 7350 1750
+F 0 "#PWR021" H 7350 1500 50  0001 C CNN
+F 1 "GND" H 7350 1600 50  0000 C CNN
+F 2 "" H 7350 1750 50  0001 C CNN
+F 3 "" H 7350 1750 50  0001 C CNN
+	1    7350 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6950 1850 7050 1850
-Wire Wire Line
-	7050 1850 7050 1950
 Wire Bus Line
 	5500 1750 5500 2250
 Entry Wire Line
@@ -849,43 +843,16 @@ Wire Wire Line
 	6450 1750 6350 1750
 Wire Wire Line
 	6350 1850 6450 1850
-Wire Wire Line
-	6950 1650 7300 1650
 Entry Wire Line
-	7300 1650 7400 1750
-Wire Bus Line
-	7400 1750 7400 2250
-Text Label 7150 1650 0    40   ~ 0
+	7100 1850 7200 1950
+Text Label 7000 1850 0    40   ~ 0
 SW
 Wire Wire Line
 	4350 3150 4750 3150
 Entry Wire Line
 	4750 3150 4850 3050
-$Comp
-L CONN_01X02 J3
-U 1 1 59A70B56
-P 3300 1200
-F 0 "J3" H 3300 1350 50  0000 C CNN
-F 1 "TX" V 3400 1200 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3300 1200 50  0001 C CNN
-F 3 "" H 3300 1200 50  0001 C CNN
-	1    3300 1200
-	0    -1   -1   0   
-$EndComp
 Wire Bus Line
 	4100 1850 4100 2250
-Wire Wire Line
-	3000 1650 3000 1450
-Wire Wire Line
-	3000 1450 3250 1450
-Wire Wire Line
-	3250 1450 3250 1400
-Connection ~ 3000 1650
-Wire Wire Line
-	3650 1450 3350 1450
-Wire Wire Line
-	3350 1450 3350 1400
-Connection ~ 3650 1850
 Text Label 4450 3150 0    40   ~ 0
 CH_ON
 $Comp
@@ -1035,7 +1002,7 @@ F 3 "" H 10000 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10000 1450 10000 900 
+	10000 900  10000 1450
 Wire Wire Line
 	10000 900  10100 900 
 Wire Wire Line
@@ -1047,4 +1014,14 @@ Connection ~ 10000 1200
 Wire Wire Line
 	10000 1350 10100 1350
 Connection ~ 10000 1350
+Wire Wire Line
+	3650 1850 3650 1950
+Wire Wire Line
+	6950 1850 7100 1850
+Wire Bus Line
+	7200 1950 7200 2250
+Wire Wire Line
+	6950 1650 7350 1650
+Wire Wire Line
+	7350 1650 7350 1750
 $EndSCHEMATC
