@@ -220,21 +220,21 @@ Entry Wire Line
 Entry Wire Line
 	2650 1750 2750 1650
 Text Label 4450 3450 0    40   ~ 0
-PA5
+MISO
 Text Label 4450 3550 0    40   ~ 0
 CP_OUT
 Text Label 2850 1650 0    40   ~ 0
-PA5
+MISO
 Text Label 3750 1750 0    40   ~ 0
 CP_OUT
 Text Label 4450 3350 0    40   ~ 0
-SCK
+SW
 Text Label 2850 1750 0    40   ~ 0
-SCK
+SW
 Text Label 4450 4150 0    40   ~ 0
-SW
+RESET
 Text Label 2850 1850 0    40   ~ 0
-SW
+RESET
 Text Label 4450 3850 0    40   ~ 0
 XTAL1
 Text Label 4450 3950 0    40   ~ 0
