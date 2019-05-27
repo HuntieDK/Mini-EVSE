@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Miscellaneous)(type KiCad)(uri "$(KIPRJMOD)/KiCad libraries/Miscellaneous.pretty")(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type KiCad)(uri "$(KIPRJMOD)/KiCad libraries/SamacSys_Parts.pretty")(options "")(descr ""))
 )

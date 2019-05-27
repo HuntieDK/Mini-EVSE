@@ -1,4 +1,4 @@
-update=01-08-2018 21:47:38
+update=15-05-2019 18:31:08
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,4 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=relays
+LibName33=KiCad libraries/SamacSys_Parts
