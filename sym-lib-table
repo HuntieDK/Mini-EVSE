@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name "Mini-EVSE-rescue")(type "Legacy")(uri "${KIPRJMOD}/Mini EVSE-rescue.lib")(options "")(descr ""))
   (lib (name "miscellaneous")(type "Legacy")(uri "${KIPRJMOD}/KiCad libraries/miscellaneous.lib")(options "")(descr ""))
   (lib (name "reed-relays")(type "Legacy")(uri "${KIPRJMOD}/KiCad libraries/reed-relays.lib")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "Legacy")(uri "${KIPRJMOD}/KiCad libraries/SamacSys_Parts.lib")(options "")(descr ""))
 )
