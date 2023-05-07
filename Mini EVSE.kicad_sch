@@ -2906,7 +2906,7 @@
     (property "Reference" "IC1" (id 0) (at 73.66 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "G3MC-201PL DC5" (id 1) (at 80.01 151.13 0)
+    (property "Value" "AQG12105" (id 1) (at 77.47 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight" (id 2) (at 77.47 151.13 0)
@@ -3211,7 +3211,7 @@
       (reference "F1") (unit 1) (value "1A") (footprint "Fuse_Holders_and_Fuses:Fuseholder_Fuse_TR5_Littlefuse-No560_No460")
     )
     (path "/00000000-0000-0000-0000-000059a74096"
-      (reference "IC1") (unit 1) (value "G3MC-201PL DC5") (footprint "Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight")
+      (reference "IC1") (unit 1) (value "AQG12105") (footprint "Package_SIP:SIP4_Sharp-SSR_P7.62mm_Straight")
     )
     (path "/00000000-0000-0000-0000-000059a6ed36"
       (reference "IC2") (unit 1) (value "IRM-03-5") (footprint "Miscellaneous:MeanWell_IRM")
